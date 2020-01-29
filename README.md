@@ -5,10 +5,11 @@ Usage:
 
 ```
 repos:
-- repo: https://github.com/maltzj/ktlint-pre-commit
-  sha: e5bee17 
-  hooks:
+  - repo: https://github.com/excitedleigh/ktlint-pre-commit
+    rev: <SHA of this commit>
+    hooks:
       - id: ktlint
+
 ```
 
 *Notes*: 
